@@ -126,5 +126,23 @@ nav ul li a:hover::after{
   }
 }
 
+/* button */
+.btn {
+  display: block;
+  margin-top: 29px;
+  margin-left: 64px;
+  width: fit-content;
+  background: #b089b0;
+  padding: 14px 50px;
+  text-decoration: none;
+  color: #F8F3EC;
+  transition: background 0.6s;
+}
+
+.btn:hover {
+  background: #c29cc2;
+  transition: .3s;
+} 
+
 
   
