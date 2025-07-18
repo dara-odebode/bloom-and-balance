@@ -200,9 +200,9 @@ nav ul li a:hover::after{
 /* Medium Circle */
 .about-circle.medium {
   width: 340px;
-  height: 320px;
+  height: 340px;
   background: #BD68BD; 
-  top: 40%;
+  top: 28%;
   left: 30%;
   animation-delay: 0s;
 }
@@ -213,7 +213,7 @@ nav ul li a:hover::after{
   height: 190px;
   background: #F5C24A; 
   margin-right: 30%;
-  top: 50%;
+  top: 40%;
   left: 34%;
   animation-delay: 2s;
 }
