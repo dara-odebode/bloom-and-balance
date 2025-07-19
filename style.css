@@ -3,7 +3,7 @@
   font-family: 'Georgia', serif;
   box-sizing: border-box;
   margin-left: 22px;
-  margin-right: 18px;
+  margin-right: 14px;
 }
 
 html {
@@ -129,7 +129,7 @@ nav ul li a:hover::after{
 /* button */
 .btn {
   display: block;
-  margin-top: 29px;
+  margin-top: 33px;
   margin-left: 64px;
   width: fit-content;
   background: #b089b0;
@@ -137,6 +137,7 @@ nav ul li a:hover::after{
   text-decoration: none;
   color: #F8F3EC;
   transition: background 0.6s;
+  margin-bottom: 14%;
 }
 
 .btn:hover {
@@ -195,6 +196,7 @@ nav ul li a:hover::after{
   border-radius: 50%;
   filter: blur(40px);
   opacity: 0.3;
+  animation: float 1.7s ease-in-out infinite alternate;
 }
 
 /* Medium Circle */
@@ -209,8 +211,8 @@ nav ul li a:hover::after{
 
 /* Small Circle */
 .about-circle.small {
-  width: 190px;
-  height: 190px;
+  width: 170px;
+  height: 170px;
   background: #F5C24A; 
   margin-right: 30%;
   top: 40%;
@@ -229,3 +231,113 @@ nav ul li a:hover::after{
     transform: translate(-15px, 20px);
   }
 }
+
+/* phase carousel */
+
+#slider {
+  margin: 0 auto;
+  width: 800px;
+  max-width: 100%;
+  text-align: center;
+}
+
+#slider input[type=radio] {
+  display: none;
+}
+
+#slider label {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#slides {
+  padding: 30px;
+  border: 3px solid #8cac83;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#overflow {
+  overflow: hidden;
+  width: 100%;
+}
+
+#slide1:checked ~ #slides .inner {
+  margin-left: 0%;
+}
+
+#slide2:checked ~ #slides .inner {
+  margin-left: 0%;
+}
+
+#slide3:checked ~ #slides .inner {
+  margin-left: 0%;
+}
+
+#slide4:checked ~ #slides .inner {
+  margin-left: 0%;
+}
+
+#slides .inner {
+  transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  width: 400%;
+  line-height: 0;
+  height: 200px;
+}
+
+#slides .slide {
+  width: 25%;
+  float: left;
+  display: block;
+  height: 100%;
+  color: #fff;
+}
+
+slides .slide-1 {
+  background: #8cac83;
+}
+
+slides .slide-2 {
+  background: #976B97;
+}
+
+slides .slide-3 {
+  background: #F5C24A;
+}
+
+slides .slide-4 {
+  background: #BD68BD;
+}
+
+.slide-content {
+  padding: 10px;
+}
+
+#controls {
+  margin: -130px 0 0 0;
+  width: 100%;
+  height: 50px;
+  z-index: 3;
+  position: relative;
+}
+
+#controls label {
+  transition: opacity 0.2s ease-in-out;
+  display: none;
+  width: 50px;
+  height: 50px;
+  opacity: .4;
+}
+
+#controls label:hover {
+opacity: 1;
+}
+
+#slide1:checked  #controls label:nth-child(2),
+#slide1:checked ~ #controls label:nth-child(3),
+#slide1:checked ~ #controls label:nth-child(4),
+#slide1:checked ~ #controls label:nth-child(1) {
+  background:url();
+}
+
