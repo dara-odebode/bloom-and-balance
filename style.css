@@ -20,9 +20,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  
 }
 
 nav p {
+  margin-top: 2px;
   font-size: 22px;
 }
 
@@ -60,16 +62,19 @@ nav ul li a:hover::after{
   margin-left: 0px;;
   margin-right: 30%;
   font-size: 65px;
-  font-weight: bold;
+  font-weight: bolder;
   margin-top: 10%;
+  margin-bottom: 0%;
 }
 
 .about-text p {
   font-size: 18px;
   line-height: 1.7;
+  margin-top: 2%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 0px;
   margin-right: 35%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: #2C2C2C;
 }
 
@@ -132,6 +137,7 @@ nav ul li a:hover::after{
   margin-top: 33px;
   margin-left: 64px;
   width: fit-content;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #b089b0;
   padding: 14px 50px;
   text-decoration: none;
@@ -170,6 +176,7 @@ nav ul li a:hover::after{
   font-size: 17px;
   line-height: 1.6;
   margin-right: 10%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 10%;
   margin-bottom: 20px;
   margin-top: 0px;
@@ -234,19 +241,73 @@ nav ul li a:hover::after{
 
 /* phases slides */
 
-.container {
- padding: 2rem; 
-}
 
 .slider-wrapper {
   position: relative;
   max-width: 48rem;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .slider {
   display: flex;
-  aspect-ratio: 16 / 9;
-  overflow-x: auto;
-  scroll-snap-type: x-mandatory;
+  width: 120%;
+  height: 100%;
+  aspect-ratio: 24 / 13;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  border-radius: 0.5%;
 }
+
+
+.slide-box {
+  margin-top: 10%;
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 2rem;
+  color: #fff;
+  height: 80%;
+  opacity: 0.9;
+}
+
+.slide-box h2 {
+  font-weight: normal;
+  margin-top: 5%;
+  font-size: 40px;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.slide-box p {
+  font-size: 18px;;
+  line-height: 1.5;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 80%;
+  text-align:left;
+}
+
+.box1 {
+  background-color: #cbaec1;
+  border: 1px solid #914995;
+}
+
+.box2 {
+  background-color: #acc8a5;
+  border: 1px solid #4F7943;
+  
+}
+
+.box3 {
+  background-color: #ada2bf;
+  border: 1px solid #672f6a;
+}
+
+.box4 {
+  background-color: #a5bac8;
+  border: 1px solid #274464;
+}
+
+
+
