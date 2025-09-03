@@ -11,7 +11,7 @@ html {
 }
 
 body {
-background: #F8F3EC; 
+background: #fefaf4; 
   color: #612764;
 }
 
@@ -36,7 +36,7 @@ nav ul li{
 }
 
 nav ul li a{
-   color:#612764;
+  color:#612764;
   text-decoration: none;
   font-size: 20px; 
   position: relative;
@@ -143,7 +143,7 @@ nav ul li a:hover::after{
   text-decoration: none;
   color: #F8F3EC;
   transition: background 0.6s;
-  margin-bottom: 14%;
+  margin-bottom: 13%;
 }
 
 .btn:hover {
@@ -241,6 +241,74 @@ nav ul li a:hover::after{
 
 /* phases slides */
 
+.phase-circles {
+  position: absolute;
+  inset: 0; /* fills the slide */
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.phase-circle {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.4;
+  animation: float 3s ease-in-out infinite alternate;
+}
+
+/* Slide 1 circles */
+.circles1 .medium {
+  width: 280px; height: 280px;
+  background: #BD68BD;
+  top: 20%; left: 25%;
+}
+.circles1 .small {
+  width: 160px; height: 160px;
+  background: #F5C24A;
+  top: 50%; left: 50%;
+}
+
+/* Slide 2 circles */
+.circles2 .medium {
+  width: 300px; height: 300px;
+  background: #1c3b13;
+  top: 25%; left: 30%;
+}
+.circles2 .small {
+  width: 150px; height: 150px;
+  background: #ae5903;
+  top: 45%; left: 55%;
+}
+
+/* Slide 3 circles */
+.circles3 .medium {
+  width: 280px; height: 280px;
+  background: #F5C24A;
+  top: 20%; left: 20%;
+}
+.circles3 .small {
+  width: 170px; height: 170px;
+  background: #BD68BD;
+  top: 55%; left: 40%;
+}
+
+/* Slide 4 circles */
+.circles4 .medium {
+  width: 260px; height: 260px;
+  background: #1a7cbc;
+  top: 30%; left: 35%;
+}
+.circles4 .small {
+  width: 140px; height: 140px;
+  background: #274464;
+  top: 50%; left: 55%;
+}
+
+.slide-box {
+  position: relative;
+  z-index: 1;
+}
 
 .slider-wrapper {
   position: relative;
