@@ -143,7 +143,7 @@ nav ul li a:hover::after{
   text-decoration: none;
   color: #F8F3EC;
   transition: background 0.6s;
-  margin-bottom: 13%;
+  margin-bottom: 10%;
 }
 
 .btn:hover {
@@ -243,6 +243,52 @@ nav ul li a:hover::after{
 
 .phase-circles {
   position: absolute;
+  inset: 0; 
+  z-index: 0;
+  overflow: hidden;
+}
+
+.phase-circle {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.4;
+  animation: float 3s ease-in-out infinite alternate;
+}
+
+.box1 .medium { width: 280px; height: 280px; background: #BD68BD; top: 20%; left: 25%;  filter: blur(40px); opacity: 0.4;}
+.box1 .small { width: 160px; height: 160px; background: #F5C24A; top: 50%; left: 50%; filter: blur(40px); opacity: 0.4; }
+
+.swiper-slide h2, 
+.swiper-slide p {
+  position: relative; 
+  z-index: 1;
+}
+
+.swiper {
+  width: 600px;
+  height: 350px;
+  margin: 40px auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  font-family: 'Georgia', serif;
+  color: #fff;
+}
+
+.box1 { background: #cbaec1; border: 2px solid #914995; }
+.box2 { background: #acc8a5; border: 2px solid #4F7943; }
+.box3 { background: #ada2bf; border: 2px solid #672f6a; }
+.box4 { background: #a5bac8; border: 2px solid #274464; }
+
+.phase-circles {
+  position: absolute;
   inset: 0; /* fills the slide */
   z-index: 0;
   pointer-events: none;
@@ -255,54 +301,6 @@ nav ul li a:hover::after{
   filter: blur(40px);
   opacity: 0.4;
   animation: float 3s ease-in-out infinite alternate;
-}
-
-/* Slide 1 circles */
-.circles1 .medium {
-  width: 280px; height: 280px;
-  background: #BD68BD;
-  top: 20%; left: 25%;
-}
-.circles1 .small {
-  width: 160px; height: 160px;
-  background: #F5C24A;
-  top: 50%; left: 50%;
-}
-
-/* Slide 2 circles */
-.circles2 .medium {
-  width: 300px; height: 300px;
-  background: #1c3b13;
-  top: 25%; left: 30%;
-}
-.circles2 .small {
-  width: 150px; height: 150px;
-  background: #ae5903;
-  top: 45%; left: 55%;
-}
-
-/* Slide 3 circles */
-.circles3 .medium {
-  width: 280px; height: 280px;
-  background: #F5C24A;
-  top: 20%; left: 20%;
-}
-.circles3 .small {
-  width: 170px; height: 170px;
-  background: #BD68BD;
-  top: 55%; left: 40%;
-}
-
-/* Slide 4 circles */
-.circles4 .medium {
-  width: 260px; height: 260px;
-  background: #1a7cbc;
-  top: 30%; left: 35%;
-}
-.circles4 .small {
-  width: 140px; height: 140px;
-  background: #274464;
-  top: 50%; left: 55%;
 }
 
 .slide-box {
