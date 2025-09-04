@@ -193,7 +193,6 @@ nav ul li a:hover::after{
   height: 78vh;
   margin-left: 8%;
   margin-top: 10%;
-
   pointer-events: none; 
   overflow: hidden;
 }
@@ -259,37 +258,65 @@ nav ul li a:hover::after{
 .box1 .medium { width: 280px; height: 280px; background: #BD68BD; top: 20%; left: 25%;  filter: blur(40px); opacity: 0.4;}
 .box1 .small { width: 160px; height: 160px; background: #F5C24A; top: 50%; left: 50%; filter: blur(40px); opacity: 0.4; }
 
-.swiper-slide h2, 
+.box2 .medium { width: 280px; height: 280px; background: #d512d5; top: 20%; left: 25%;  filter: blur(40px); opacity: 0.4;}
+.box2 .small { width: 160px; height: 160px; background: #4af5ca; top: 50%; left: 50%; filter: blur(40px); opacity: 0.4; }
+
+.box3 .medium { width: 280px; height: 280px; background: #68a8bd; top: 20%; left: 25%;  filter: blur(40px); opacity: 0.4;}
+.box3 .small { width: 160px; height: 160px; background: #795708; top: 50%; left: 50%; filter: blur(40px); opacity: 0.4; }
+
+.box4 .medium { width: 280px; height: 280px; background: #180d93; top: 20%; left: 25%;  filter: blur(40px); opacity: 0.4;}
+.box4 .small { width: 160px; height: 160px; background: #55919b; top: 50%; left: 50%; filter: blur(40px); opacity: 0.4; }
+
+.swiper-slide h2 {
+  font-weight: normal;
+  margin-top: 5%;
+  font-size: 40px;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
 .swiper-slide p {
+  font-size: 18px;;
+  line-height: 1.5;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 80%;
+  text-align: left;
   position: relative; 
   z-index: 1;
 }
 
 .swiper {
-  width: 600px;
-  height: 350px;
-  margin: 40px auto;
-  border-radius: 12px;
-  overflow: hidden;
+  width: 70%;     
+  height: 400px;  
+  margin: 2rem auto;
+  position: relative;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  border-radius: 0.5%;
+  margin-bottom: 15%;
 }
 
 .swiper-slide {
+  opacity: 0.8;           
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
-  font-family: 'Georgia', serif;
-  color: #fff;
+  box-sizing: border-box;
+  flex: 0 0 100%;
 }
 
-.box1 { background: #cbaec1; border: 2px solid #914995; }
-.box2 { background: #acc8a5; border: 2px solid #4F7943; }
-.box3 { background: #ada2bf; border: 2px solid #672f6a; }
-.box4 { background: #a5bac8; border: 2px solid #274464; }
+
+/* ADD THESE TO ARRAY */
+.box1 { background: #cbaec1; border: 1px solid #914995; }
+.box2 { background: #acc8a5; border: 1px solid #4F7943; }
+.box3 { background: #ada2bf; border: 1px solid #672f6a; }
+.box4 { background: #a5bac8; border: px solid #274464; }
 
 .phase-circles {
   position: absolute;
-  inset: 0; /* fills the slide */
+  inset: 0;
   z-index: 0;
   pointer-events: none;
   overflow: hidden;
@@ -303,77 +330,6 @@ nav ul li a:hover::after{
   animation: float 3s ease-in-out infinite alternate;
 }
 
-.slide-box {
-  position: relative;
-  z-index: 1;
-}
-
-.slider-wrapper {
-  position: relative;
-  max-width: 48rem;
-  margin: 0;
-}
-
-.slider {
-  display: flex;
-  width: 120%;
-  height: 100%;
-  aspect-ratio: 24 / 13;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  border-radius: 0.5%;
-}
-
-
-.slide-box {
-  margin-top: 10%;
-  flex: 1 0 100%;
-  scroll-snap-align: start;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  padding: 2rem;
-  color: #fff;
-  height: 80%;
-  opacity: 0.9;
-}
-
-.slide-box h2 {
-  font-weight: normal;
-  margin-top: 5%;
-  font-size: 40px;
-  margin-bottom: 1rem;
-  text-align: left;
-}
-
-.slide-box p {
-  font-size: 18px;;
-  line-height: 1.5;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  max-width: 80%;
-  text-align:left;
-}
-
-.box1 {
-  background-color: #cbaec1;
-  border: 1px solid #914995;
-}
-
-.box2 {
-  background-color: #acc8a5;
-  border: 1px solid #4F7943;
-  
-}
-
-.box3 {
-  background-color: #ada2bf;
-  border: 1px solid #672f6a;
-}
-
-.box4 {
-  background-color: #a5bac8;
-  border: 1px solid #274464;
-}
 
 
 
