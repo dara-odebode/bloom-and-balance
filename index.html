@@ -21,7 +21,7 @@
               <ul>
                   <li><a href="index.html">Home</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li><a href="phases.html">Phases</a></li>
+                  <li><a href="#phases">Phases</a></li>
               </ul>
       </nav>
 
@@ -44,8 +44,8 @@
 
   <!-----phases section----->
   
- <!-- wrap just the slider -->
-<div class="phases">
+<div id="phases" class="phases">
+  <div class="phases">
   <div class="swiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide box1">
@@ -78,17 +78,25 @@
 
     </div>
 
-    <!-- bullets & arrows -->
+    <!-- bullets -->
     <div class="swiper-pagination"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
   </div>
+ 
+  <div class="arrows">
+    <button class="left-arrow">
+      <img src="\images\leftArrow.png" alt="Left Arrow">
+    </button>
+    <button class="right-arrow">
+      <img src="\images\rightArrow.png" alt="Right Arrow">
+    </button>
+  </div>
+  
 
   <script>
   const swiper = new Swiper('.swiper', {
   loop: true,
   autoplay: {
-    delay: 5000,
+    delay: 4000,
     disableOnInteraction: false,
     pauseOnMouseEnter: true,
   },
@@ -97,13 +105,14 @@
     clickable: true,
   },
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.right-arrow',
+    prevEl: '.left-arrow',
   },
 });
 
   </script>
   </div>
+</div>
 
 </body>
 </html>
