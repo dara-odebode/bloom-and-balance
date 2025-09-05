@@ -262,7 +262,7 @@ nav ul li a:hover::after{
 .arrows {
   position: absolute;
   top: 135%;
-  width: 80%; /* span the slider */
+  width: 80%; /* width betwen arrow */
   display: flex;
   justify-content: space-between;
   pointer-events: none;
@@ -280,6 +280,15 @@ nav ul li a:hover::after{
   width: 50px;
   height: 50px;
 }
+
+/* make bullets bigger */
+.swiper-pagination-bullet {
+  width: 18px;
+  height: 18px;
+  border: 6px solid #bd72ab;
+  opacity: 1;
+}
+
 
 .box1 { background-color: rgba(211, 164, 206, 0.5); border: 1px solid #914995;}
 .box2 { background-color: rgba(172, 200, 165, 0.5); border: 1px solid #4F7943; }
