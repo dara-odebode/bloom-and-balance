@@ -159,6 +159,7 @@ nav ul li a:hover::after{
   border: 2px solid #8cac83;
   background: #e1cee1;
   padding: 70px;
+  opacity: 0.9;
   margin-top: 5%;
   margin-left: 2%;
   margin-right: 3%;
