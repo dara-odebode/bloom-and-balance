@@ -1,0 +1,222 @@
+*{
+    padding: 0px;
+    font-family: 'Georgia', serif;
+    box-sizing: border-box;
+    margin-left: 22px;
+    margin-right: 14px;
+    margin-bottom: 50px !important;
+  }
+  
+  html {
+    scroll-behavior: smooth; 
+  }
+  
+  body {
+  background: #fefaf4; 
+    color: #612764;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  nav p {
+    margin-top: 2px;
+    font-size: 22px;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    width: 22%;
+    margin: 10px 11px;
+  }
+  
+  nav ul li a{
+    color:#612764;
+    text-decoration: none;
+    font-size: 20px; 
+    position: relative;
+  }
+  
+  nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #976B97;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+  }
+  
+  nav ul li a:hover::after{
+    width: 100%;
+    transition: .3s;
+  }
+
+  /* title and paragraph */
+
+.title {
+    text-align: center;
+    font-size: 65px;
+    color: #6d7f9b; 
+    font-weight: lighter;
+    margin-bottom: 0%;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6389c5;
+}
+
+.info {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+    margin-right: 20%;
+    margin-bottom: 40px;
+    margin-top: 0%;
+    color: #2C2C2C;
+}
+
+/*specific info */
+
+.about-column-title {
+    font-size: 50px !important;
+    font-weight: normal;
+    color: #6d7f9b;  
+    flex: 0.5; /*space between title and text */
+    margin-left: 20px;
+  }
+
+.about-columns {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  margin-top: 0%;
+  border-top: 1px solid #e4e4e4;
+  margin-right: 26%;
+  padding-top: 30px;
+}
+
+.about-columns.reverse {
+  flex-direction: row-reverse;
+  text-align: right; 
+  margin-right: 6%;
+  margin-top: 0%;
+  margin-left: 20%;
+}
+
+.about-columns.no-border {
+  border-top: none;
+}
+
+.about-history {
+  flex: 3;
+}
+
+.role-entry p { /* paragraphs */
+  line-height: 1.6;
+  font-size: 18px;
+  margin-top: 1%;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2C2C2C;
+}
+
+.role-entry-herbs p { /* paragraphs */
+    line-height: 1.6;
+    font-size: 18px;
+    margin-top: 10%;
+    margin-left:10%;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2C2C2C;
+  }
+
+  .role-entry-movement p { /* paragraphs */
+    line-height: 1.6;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left:10%;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2C2C2C;
+  }
+
+  .role-entry-self-care p { /* paragraphs */
+    line-height: 1.6;
+    font-size: 18px;
+    margin-top: 7%;
+    margin-left:0%;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2C2C2C;
+  }
+
+  .role-entry-lifestyle p { /* paragraphs */
+    line-height: 1.6;
+    font-size: 18px;
+    margin-top: 7%;
+    margin-left:0%;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2C2C2C;
+  }
+
+.role-entry em { /* headers */
+  color: #3361ab;
+  font-size: 18px;
+  margin-left: 0%;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.role-entry-herbs em { /* headers */
+    color: #3361ab;
+    font-size: 18px;
+    margin-left: 0%;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .role-entry-movement em { /* headers */
+    color: #3361ab;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .role-entry-self-care em { /* headers */
+    color: #3361ab;
+    font-size: 18px;
+    margin-left:0%;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .role-entry-lifestyle em { /* headers */
+    color: #3361ab;
+    font-size: 18px;
+    margin-left:0%;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* images */
+
+  .meal {
+    margin-right: 0%;
+    top: 0%;
+    margin-left: 110%;
+    width: 33.33%;
+  }

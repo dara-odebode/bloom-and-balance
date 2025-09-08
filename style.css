@@ -338,6 +338,23 @@ nav ul li a:hover::after{
   color: #0D2E4F;
 }
 
+.learn-more-btn {
+  display: inline-block;
+  margin-top: 33px;
+  margin-left: 36px;
+  width: fit-content;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #b089b0;
+  padding: 14px 50px;
+  text-decoration: none;
+  color: #F8F3EC;
+  transition: background 0.3s;
+}
+
+.learn-more-btn:hover {
+  background: #c29cc2;
+  transition: .7s;
+}
 
 
 
