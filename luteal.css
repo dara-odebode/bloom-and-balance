@@ -100,12 +100,13 @@
 
 .about-columns {
   display: flex;
-  align-items: flex-start;
-  margin-bottom: 30px;
-  margin-top: 0%;
+  align-items: flex-start;   /* keep top aligned */
+  justify-content: space-between; /* push apart */
+  margin-top: 0;
   border-top: 1px solid #e4e4e4;
-  margin-right: 26%;
   padding-top: 30px;
+  margin-right: 5%;   /* less restriction */
+  margin-left: 5%;
 }
 
 .about-columns.reverse {
@@ -124,9 +125,16 @@
   flex: 3;
 }
 
+.role-entry {
+  display: flex;          /* put text + image side by side */
+  align-items: flex-start; /* align top edges */
+  gap: 20px;              /* space between text and image */
+}
+
 .role-entry p { /* paragraphs */
   line-height: 1.6;
   font-size: 18px;
+  flex: 2;
   margin-top: 1%;
   font-weight: 400;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -215,8 +223,12 @@
   /* images */
 
   .meal {
-    margin-right: 0%;
-    top: 0%;
-    margin-left: 110%;
-    width: 33.33%;
+    flex: 1;  
+    margin: 0;   
+  }
+  
+  .meal img {
+    max-width: 70%;
+    height: auto;
+    display: block;
   }
