@@ -100,19 +100,20 @@
 
 .about-columns {
   display: flex;
-  align-items: flex-start;   /* keep top aligned */
-  justify-content: space-between; /* push apart */
+  align-items: flex-start; 
+  justify-content: space-between;
   margin-top: 0;
   border-top: 1px solid #e4e4e4;
   padding-top: 30px;
-  margin-right: 5%;   /* less restriction */
+  margin-right: 5%; 
   margin-left: 5%;
+  gap: 20px;
 }
 
 .about-columns.reverse {
   flex-direction: row-reverse;
   text-align: right; 
-  margin-right: 6%;
+  margin-right: 10%;
   margin-top: 0%;
   margin-left: 20%;
 }
@@ -126,9 +127,9 @@
 }
 
 .role-entry {
-  display: flex;          /* put text + image side by side */
-  align-items: flex-start; /* align top edges */
-  gap: 20px;              /* space between text and image */
+  display: flex; 
+  align-items: flex-start; 
+  gap: 20px;            
 }
 
 .role-entry p { /* paragraphs */
@@ -144,27 +145,43 @@
 .role-entry-herbs p { /* paragraphs */
     line-height: 1.6;
     font-size: 18px;
-    margin-top: 10%;
+    flex: 9;
+    margin-top: 8%;
+    margin-left:10%;
+    font-weight: 400;
+    margin-left:0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2C2C2C;
+  }
+
+  .role-entry-herbs {
+    display: flex;        
+    align-items: flex-start; 
+    gap: 200px;  
+  }
+  
+  .role-entry-movement p { /* paragraphs */
+    line-height: 1.6;
+    font-size: 18px;
+    margin-top: 5%;
+    flex: 10;
     margin-left:10%;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #2C2C2C;
   }
 
-  .role-entry-movement p { /* paragraphs */
-    line-height: 1.6;
-    font-size: 18px;
-    margin-top: 5%;
-    margin-left:10%;
-    font-weight: 400;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #2C2C2C;
+  .role-entry-movement {
+    display: flex;        
+    align-items: flex-start; 
+    gap: 200px;  
   }
 
   .role-entry-self-care p { /* paragraphs */
     line-height: 1.6;
     font-size: 18px;
-    margin-top: 7%;
+    flex: 2;
+    margin-top: 6%;
     margin-left:0%;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -174,13 +191,20 @@
   .role-entry-lifestyle p { /* paragraphs */
     line-height: 1.6;
     font-size: 18px;
-    margin-top: 7%;
+    margin-top: 43px;
+    flex: 2;
     margin-left:0%;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #2C2C2C;
   }
 
+  .role-entry-lifestyle {
+    display: flex;          
+    align-items: flex-start; 
+    gap: 20px;             
+  }
+  
 .role-entry em { /* headers */
   color: #3361ab;
   font-size: 18px;
@@ -229,6 +253,53 @@
   
   .meal img {
     max-width: 70%;
+    height: auto;
+    display: block;
+  }
+
+  .selfcare {
+    flex: 1;  
+    margin: 0;   
+  }
+  
+  .selfcare img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+  }
+
+  .lifestyle {
+    flex: 1;  
+    margin: 0;   
+  }
+  
+  .lifestyle img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+  }
+
+  .herbs {
+    flex: 1;  
+    margin: 0;   
+  }
+  
+  .herbs img {
+    margin-top:50%;
+    max-width: 400%;
+    height: auto;
+    display: block;
+  }
+
+  
+  .movement {
+    flex: 1;  
+    margin: 0;   
+  }
+  
+  .movement img {
+    margin-top:50%;
+    max-width: 600%;
     height: auto;
     display: block;
   }
