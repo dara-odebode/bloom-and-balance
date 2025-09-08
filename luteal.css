@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin-left: 22px;
     margin-right: 14px;
-    margin-bottom: 50px !important;
   }
   
   html {
@@ -64,7 +63,7 @@
     font-size: 65px;
     color: #6d7f9b; 
     font-weight: lighter;
-    margin-bottom: 0%;
+    margin-top: 5%;
 }
 
 .subtitle{
@@ -73,6 +72,7 @@
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #6389c5;
+    margin-top: -30px;
 }
 
 .info {
@@ -84,7 +84,7 @@
     margin-left: 300px;
     margin-right: 20%;
     margin-bottom: 40px;
-    margin-top: 0%;
+    margin-top: 2px;
     color: #2C2C2C;
 }
 
@@ -98,16 +98,26 @@
     margin-left: 20px;
   }
 
+.about-column-title-self-care {
+  font-size: 50px !important;
+  font-weight: normal;
+  color: #6d7f9b;  
+  flex: 1; 
+  margin-left: 20px;
+  margin-right: -11%;
+}
+
 .about-columns {
   display: flex;
   align-items: flex-start; 
   justify-content: space-between;
-  margin-top: 0;
+  margin-top: 6%;
   border-top: 1px solid #e4e4e4;
   padding-top: 30px;
   margin-right: 5%; 
   margin-left: 5%;
   gap: 20px;
+  margin-bottom: 25px;
 }
 
 .about-columns.reverse {
@@ -115,7 +125,8 @@
   text-align: right; 
   margin-right: 10%;
   margin-top: 0%;
-  margin-left: 20%;
+  margin-left: 5%;
+  margin-bottom: -3%;
 }
 
 .about-columns.no-border {
@@ -174,14 +185,14 @@
   .role-entry-movement {
     display: flex;        
     align-items: flex-start; 
-    gap: 200px;  
+    gap: 110px;  
   }
 
   .role-entry-self-care p { /* paragraphs */
     line-height: 1.6;
     font-size: 18px;
     flex: 2;
-    margin-top: 6%;
+    margin-top: 4%;
     margin-left:0%;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -254,6 +265,7 @@
   .meal img {
     max-width: 70%;
     height: auto;
+    margin-top: -5%;
     display: block;
   }
 
@@ -285,21 +297,31 @@
   }
   
   .herbs img {
-    margin-top:50%;
-    max-width: 400%;
+    margin-top:20%;
+    max-width: 320%;
     height: auto;
     display: block;
   }
 
-  
   .movement {
     flex: 1;  
     margin: 0;   
   }
   
   .movement img {
-    margin-top:50%;
-    max-width: 600%;
+    margin-top: -10%;
+    max-width: 330%;
     height: auto;
     display: block;
   }
+
+  /* for all images to hover */
+
+.about-columns img {
+  transition: transform 0.6s ease; 
+}
+
+/* Hover effect */
+.about-columns img:hover {
+  transform: translateY(-11px); 
+}
