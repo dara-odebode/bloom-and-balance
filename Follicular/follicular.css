@@ -225,7 +225,7 @@
 }
 
 .role-entry-herbs em { /* headers */
-    color: #3361ab;
+    color: #74b293;
     font-size: 18px;
     margin-left: 0%;
     font-style: italic;
@@ -233,14 +233,14 @@
   }
 
   .role-entry-movement em { /* headers */
-    color: #3361ab;
+    color: #74b293;
     font-size: 18px;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .role-entry-self-care em { /* headers */
-    color: #3361ab;
+    color: #74b293;
     font-size: 18px;
     margin-left:0%;
     font-style: italic;
@@ -248,7 +248,7 @@
   }
 
   .role-entry-lifestyle em { /* headers */
-    color: #3361ab;
+    color: #74b293;
     font-size: 18px;
     margin-left:0%;
     font-style: italic;
