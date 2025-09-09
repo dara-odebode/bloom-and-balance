@@ -34,7 +34,7 @@
     margin: 10px 11px;
   }
   
-  nav ul li a{
+  nav ul li a{ /* delete later */
     color:#612764;
     text-decoration: none;
     font-size: 20px; 
@@ -61,7 +61,7 @@
 .title {
     text-align: center;
     font-size: 65px;
-    color: #6d7f9b; 
+    color: #719b6d; 
     font-weight: lighter;
     margin-top: 5%;
 }
@@ -71,7 +71,7 @@
     font-size: 21px;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #6389c5;
+    color: #74b293;
     margin-top: -30px;
 }
 
@@ -93,7 +93,7 @@
 .about-column-title {
     font-size: 50px !important;
     font-weight: normal;
-    color: #6d7f9b;  
+    color: #719b6d; 
     flex: 0.5; /*space between title and text */
     margin-left: 20px;
   }
@@ -101,7 +101,7 @@
 .about-column-title-self-care {
   font-size: 50px !important;
   font-weight: normal;
-  color: #6d7f9b;  
+  color: #719b6d; 
   flex: 1; 
   margin-left: 20px;
   margin-right: -11%;
@@ -157,7 +157,7 @@
     line-height: 1.6;
     font-size: 18px;
     flex: 9;
-    margin-top: 8%;
+    margin-top: 5%;
     margin-left:10%;
     font-weight: 400;
     margin-left:0%;
@@ -168,13 +168,13 @@
   .role-entry-herbs {
     display: flex;        
     align-items: flex-start; 
-    gap: 200px;  
+    gap: 250px;  
   }
   
   .role-entry-movement p { /* paragraphs */
     line-height: 1.6;
     font-size: 18px;
-    margin-top: 5%;
+    margin-top: 3%;
     flex: 10;
     margin-left:10%;
     font-weight: 400;
@@ -185,7 +185,7 @@
   .role-entry-movement {
     display: flex;        
     align-items: flex-start; 
-    gap: 110px;  
+    gap: 150px;  
   }
 
   .role-entry-self-care p { /* paragraphs */
@@ -213,11 +213,11 @@
   .role-entry-lifestyle {
     display: flex;          
     align-items: flex-start; 
-    gap: 20px;             
+    gap: 40px;             
   }
   
 .role-entry em { /* headers */
-  color: #3361ab;
+  color: #74b293;
   font-size: 18px;
   margin-left: 0%;
   font-style: italic;
@@ -275,7 +275,7 @@
   }
   
   .selfcare img {
-    max-width: 70%;
+    max-width: 60%;
     height: auto;
     display: block;
   }
@@ -286,8 +286,9 @@
   }
   
   .lifestyle img {
-    max-width: 70%;
+    max-width: 75%;
     height: auto;
+    margin-top: 18%;
     display: block;
   }
 
@@ -297,8 +298,8 @@
   }
   
   .herbs img {
-    margin-top:20%;
-    max-width: 320%;
+    margin-top:-15%;
+    max-width: 310%;
     height: auto;
     display: block;
   }
@@ -309,8 +310,8 @@
   }
   
   .movement img {
-    margin-top: 5%;
-    max-width: 340%;
+    margin-top: 30%;
+    max-width: 380%;
     height: auto;
     display: block;
   }
