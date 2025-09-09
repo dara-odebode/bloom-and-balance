@@ -61,7 +61,7 @@
 .title {
     text-align: center;
     font-size: 65px;
-    color: #6d7f9b; 
+    color: #9b6d98; 
     font-weight: lighter;
     margin-top: 5%;
 }
@@ -71,7 +71,7 @@
     font-size: 21px;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #6389c5;
+    color: #c563b2;
     margin-top: -30px;
 }
 
@@ -93,7 +93,7 @@
 .about-column-title {
     font-size: 50px !important;
     font-weight: normal;
-    color: #6d7f9b;  
+    color: #9b6d98; 
     flex: 0.5; /*space between title and text */
     margin-left: 20px;
   }
@@ -101,7 +101,7 @@
 .about-column-title-self-care {
   font-size: 50px !important;
   font-weight: normal;
-  color: #6d7f9b;  
+  color: #9b6d98; 
   flex: 1; 
   margin-left: 20px;
   margin-right: -11%;
@@ -157,7 +157,7 @@
     line-height: 1.6;
     font-size: 18px;
     flex: 9;
-    margin-top: 8%;
+    margin-top: 5%;
     margin-left:10%;
     font-weight: 400;
     margin-left:0%;
@@ -168,7 +168,7 @@
   .role-entry-herbs {
     display: flex;        
     align-items: flex-start; 
-    gap: 200px;  
+    gap: 100px;  
   }
   
   .role-entry-movement p { /* paragraphs */
@@ -217,7 +217,7 @@
   }
   
 .role-entry em { /* headers */
-  color: #3361ab;
+  color: #c563b2;
   font-size: 18px;
   margin-left: 0%;
   font-style: italic;
@@ -225,7 +225,7 @@
 }
 
 .role-entry-herbs em { /* headers */
-    color: #3361ab;
+    color: #c563b2;
     font-size: 18px;
     margin-left: 0%;
     font-style: italic;
@@ -233,22 +233,15 @@
   }
 
   .role-entry-movement em { /* headers */
-    color: #3361ab;
+    color: #c563b2;
     font-size: 18px;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  .role-entry-self-care em { /* headers */
-    color: #3361ab;
-    font-size: 18px;
-    margin-left:0%;
-    font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
 
   .role-entry-lifestyle em { /* headers */
-    color: #3361ab;
+    color: #c563b2;
     font-size: 18px;
     margin-left:0%;
     font-style: italic;
@@ -263,9 +256,9 @@
   }
   
   .meal img {
-    max-width: 70%;
+    max-width: 80%;
     height: auto;
-    margin-top: -5%;
+    margin-top: 5%;
     display: block;
   }
 
@@ -275,7 +268,7 @@
   }
   
   .selfcare img {
-    max-width: 70%;
+    max-width: 40%;
     height: auto;
     display: block;
   }
@@ -297,8 +290,8 @@
   }
   
   .herbs img {
-    margin-top:20%;
-    max-width: 320%;
+    margin-top: -4%;
+    max-width: 260%;
     height: auto;
     display: block;
   }
