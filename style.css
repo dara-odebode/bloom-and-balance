@@ -173,13 +173,13 @@ nav ul li a:hover::after{
  .about-box {
   border-radius: 2px;
   border: 1px solid #8cac83;
-  background: #e1cee1;
   padding: 70px;
-  opacity: 0.9;
+  background: rgba(225, 206, 225, 0.9); /* same lilac color but with 90% opacity */
   margin-top: 5%;
   margin-left: 2%;
   margin-right: 3%;
   margin-bottom: 15%;
+  z-index: 4;         
 }
 
 .about-title {
@@ -208,6 +208,7 @@ nav ul li a:hover::after{
   top: 0;
   left: 0;
   width: 100vw;
+  z-index: -1; /* GET RID OF CIRCLES */
   height: 78vh;
   margin-left: 8%;
   margin-top: 10%;
