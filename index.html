@@ -38,7 +38,7 @@
     <div class="circle medium"></div>
     <div class="circle small"></div>
   </div>
-  <div <button class="btn success">Explore Phases</button> </div>
+  <a href="#phases" class="btn"><span>Explore Phases</span></a>
 
   <!-----phases section----->
   
@@ -51,7 +51,7 @@
         <div class="phase-circle small"></div>
         <h2>Menstrual</h2>
         <p>This is when your uterine lining sheds. Your estrogen levels rise slightly while progesterone, iron and energy levels are at their lowest. Ultimately, you have less energy, so this is the best time to rest and relax.</p>
-        <a href="Menstrual/menstrual.html" class="learn-more-btn">Learn More</a>
+        <a href="Menstrual/menstrual.html" class="learn-more-btn"><span>Learn More</span></a>
       </div>
 
       <div class="swiper-slide box2">
@@ -59,7 +59,7 @@
         <div class="phase-circle small"></div>
         <h2>Follicular</h2>
         <p>Your body starts to prepare for ovulation. Energy levels rise slightly, along with motivation, creativty and brainpower, making it a great time to begin new projects and focus on total body strength. You’re more optimistic, fresh, clear headed and your body’s resiliense to stress is great!</p>
-        <a href="Follicular/follicular.html" class="learn-more-btn">Learn More</a>
+        <a href="Follicular/follicular.html" class="learn-more-btn"><span>Learn More</span></a>
       </div>
 
       <div class="swiper-slide box3">
@@ -67,7 +67,7 @@
         <div class="phase-circle small"></div>
         <h2>Ovulatory</h2>
         <p>Hormone levels peak as well as energy and motivation. This is when you are most fertile. Exercise should be high intensity.  Your skin is glowing, your energy is magnetic, you feel more social, confident and life feels better overall!</p>
-        <a href="Ovulatory/ovulation.html" class="learn-more-btn">Learn More</a>
+        <a href="Ovulatory/ovulation.html" class="learn-more-btn"><span>Learn More</span></a>
       </div>
 
       <div class="swiper-slide box4">
@@ -75,9 +75,8 @@
         <div class="phase-circle small"></div>
         <h2>Luteal</h2>
         <p>Progesterone is produced and estrogen and testosterone levels dip. Your body prepares for menstruation again. You might feel unmotivated and you’re prone to fatigue. It's best to slow down, focus on self-care and work on your mobility. You’re mental clarity is improved and you have better emotional regulation.</p>
-        <a href="luteal.html" class="learn-more-btn">Learn More</a>
+        <a href="luteal.html" class="learn-more-btn"><span>Learn More</span></a>
       </div>
-
     </div>
 
     <!-- bullets -->
@@ -97,7 +96,7 @@
   const swiper = new Swiper('.swiper', {
   loop: true,
   autoplay: {
-    delay: 4000,
+    delay: 3000,
     disableOnInteraction: false,
     pauseOnMouseEnter: true,
   },
@@ -110,9 +109,24 @@
     prevEl: '.left-arrow',
   },
 });
-
   </script>
   </div>
+
+  <style>
+    footer {
+      text-align: center;
+      padding: 0px;
+      color: #976B97;
+    }
+
+    </style>
+    </head>
+    <body>
+    
+    <footer>
+      <p>Made with love by Dara Odebode | 2025</p>
+    </footer>
+
 </div>
 </body>
 </html>
