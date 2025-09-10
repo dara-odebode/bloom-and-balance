@@ -61,7 +61,7 @@
 .title {
     text-align: center;
     font-size: 65px;
-    color: #9b6d98; 
+    color: #846d9b; 
     font-weight: lighter;
     margin-top: 5%;
 }
@@ -71,7 +71,7 @@
     font-size: 21px;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #b352a0;
+    color: #9763c5;
     margin-top: -30px;
 }
 
@@ -93,7 +93,7 @@
 .about-column-title {
     font-size: 50px !important;
     font-weight: normal;
-    color: #9b6d98; 
+    color: #846d9b;  
     flex: 0.5; /*space between title and text */
     margin-left: 20px;
   }
@@ -101,7 +101,7 @@
 .about-column-title-self-care {
   font-size: 50px !important;
   font-weight: normal;
-  color: #9b6d98; 
+  color: #846d9b; ;  
   flex: 1; 
   margin-left: 20px;
   margin-right: -11%;
@@ -157,7 +157,7 @@
     line-height: 1.6;
     font-size: 18px;
     flex: 9;
-    margin-top: 5%;
+    margin-top: 6%;
     margin-left:10%;
     font-weight: 400;
     margin-left:0%;
@@ -168,13 +168,13 @@
   .role-entry-herbs {
     display: flex;        
     align-items: flex-start; 
-    gap: 100px;  
+    gap: 250px;  
   }
   
   .role-entry-movement p { /* paragraphs */
     line-height: 1.6;
     font-size: 18px;
-    margin-top: 5%;
+    margin-top: 3%;
     flex: 10;
     margin-left:10%;
     font-weight: 400;
@@ -185,14 +185,14 @@
   .role-entry-movement {
     display: flex;        
     align-items: flex-start; 
-    gap: 110px;  
+    gap: 130px;  
   }
 
   .role-entry-self-care p { /* paragraphs */
     line-height: 1.6;
     font-size: 18px;
     flex: 2;
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left:0%;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -217,7 +217,7 @@
   }
   
 .role-entry em { /* headers */
-  color: #b352a0;
+  color: #9763c5;
   font-size: 18px;
   margin-left: 0%;
   font-style: italic;
@@ -225,7 +225,7 @@
 }
 
 .role-entry-herbs em { /* headers */
-    color: #b352a0;
+    color: #9763c5;
     font-size: 18px;
     margin-left: 0%;
     font-style: italic;
@@ -233,15 +233,22 @@
   }
 
   .role-entry-movement em { /* headers */
-    color: #b352a0;
+    color: #9763c5;
     font-size: 18px;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
+  .role-entry-self-care em { /* headers */
+    color: #9763c5;
+    font-size: 18px;
+    margin-left:0%;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
   .role-entry-lifestyle em { /* headers */
-    color: #b352a0;
+    color: #9763c5;
     font-size: 18px;
     margin-left:0%;
     font-style: italic;
@@ -256,9 +263,9 @@
   }
   
   .meal img {
-    max-width: 80%;
+    max-width: 72%;
     height: auto;
-    margin-top: 5%;
+    margin-top: -10%;
     display: block;
   }
 
@@ -268,9 +275,9 @@
   }
   
   .selfcare img {
-    max-width: 40%;
+    max-width: 60%;
     height: auto;
-    margin-top:-2%;
+    margin-top: -4%;
     display: block;
   }
 
@@ -280,7 +287,8 @@
   }
   
   .lifestyle img {
-    max-width: 70%;
+    margin-top: 3%;
+    max-width: 60%;
     height: auto;
     display: block;
   }
@@ -291,8 +299,8 @@
   }
   
   .herbs img {
-    margin-top: -4%;
-    max-width: 260%;
+    margin-top:20%;
+    max-width: 310%;
     height: auto;
     display: block;
   }
@@ -303,19 +311,18 @@
   }
   
   .movement img {
-    margin-top: 5%;
-    max-width: 340%;
+    margin-top: -17%;
+    max-width: 280%;
     height: auto;
     display: block;
   }
 
-  /* for all images to hover */
+ /* Hover effect */
 
 .about-columns img {
   transition: transform 0.6s ease; 
 }
 
-/* Hover effect */
 .about-columns img:hover {
   transform: translateY(-11px); 
 }
