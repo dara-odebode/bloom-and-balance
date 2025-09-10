@@ -22,10 +22,17 @@
     flex-wrap: wrap;
   }
   
-  nav p {
+  .logo {
     margin-top: 2px;
     font-size: 22px;
+    color: #612764;
+    text-decoration: none; 
   }
+  
+  .logo:hover {
+    color: #8e628e; 
+  }
+  
   
   nav ul li{
     display: inline-block;

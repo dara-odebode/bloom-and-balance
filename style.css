@@ -23,10 +23,17 @@ nav {
   
 }
 
-nav p {
+.logo {
   margin-top: 2px;
   font-size: 22px;
+  color: #612764;
+  text-decoration: none; 
 }
+
+.logo:hover {
+  color: #8e628e; 
+}
+
 
 nav ul li{
   display: inline-block;
@@ -165,7 +172,7 @@ nav ul li a:hover::after{
 
  .about-box {
   border-radius: 2px;
-  border: 2px solid #8cac83;
+  border: 1px solid #8cac83;
   background: #e1cee1;
   padding: 70px;
   opacity: 0.9;
@@ -299,6 +306,7 @@ nav ul li a:hover::after{
   opacity: 1;
 }
 
+/* slide  and border colour */
 
 .box1 { background-color: rgba(211, 164, 206, 0.5); border: 1px solid #914995;}
 .box2 { background-color: rgba(172, 200, 165, 0.5); border: 1px solid #4F7943; }
