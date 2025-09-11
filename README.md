@@ -39,7 +39,7 @@ This project is a front-end web application designed to educate users about the 
 2. Right-click on any .html file and choose "Open with Live Server".
 
 ## Roadmap
-I'll come back to improve the website frequently as I learn more web development and UI/UX skills. I plan to host Bloom & Balance on NameCheap so more people can access it, and I'm also making a case study. 
+I'll come back to improve the website frequently as I learn more web development and UI/UX skills. I plan to host Bloom & Balance on NameCheap so more people can access it and I'm also making a case study. 
 
 ## Help
 ### Common issues:
