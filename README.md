@@ -12,15 +12,16 @@ This project is a front-end web application designed to educate users about the 
 ## Visuals
 
 ### Homepage
-![Homepage Screenshot](screenshots/homepage.png)
+<img src="./screenshot/homepage.png" alt="homepage" width="50%"/>
 
 ### Carousel
-![Carousel Screenshot](screenshots/luteal-phase.png)
+<img src="./screenshot/carousel.png" alt="slides" width="50%"/>
 
 ### Follicular Phase Section
-![Follicular Phase Screenshot](screenshots/follicular-page.png)
+<img src="./screenshot/follicular-page.png" alt="follicular" width="50%"/>
 
 ### Menstrual Phase Section
+<img src="./screenshot/menstrual-page.png" alt="menstrual" width="50%"/>
 ![Menstrual Phase Screenshot](screenshots/menstrual-page.png)
 
 
