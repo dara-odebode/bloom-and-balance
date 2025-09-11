@@ -14,11 +14,14 @@ This project is a front-end web application designed to educate users about the 
 ### Homepage
 ![Homepage Screenshot](screenshots/homepage.png)
 
-### Luteal Phase Section
-![Luteal Phase Screenshot](screenshots/luteal-phase.png)
+### Carousel
+![Carousel Screenshot](screenshots/luteal-phase.png)
 
-### Luteal Phase Section
-![Luteal Phase Screenshot](screenshots/luteal-phase.png)
+### Follicular Phase Section
+![Follicular Phase Screenshot](screenshots/follicular-page.png)
+
+### Menstrual Phase Section
+![Menstrual Phase Screenshot](screenshots/menstrual-page.png)
 
 
 ## Getting Started
