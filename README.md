@@ -1,4 +1,4 @@
-# Bloom-and-Balance
+# Bloom & Balance
 
 A guide that explains the four phases of the menstrual cycle and provides self-care, nutrition, movement, and lifestyle recommendations. Built with **HTML, CSS, and JavaScript** and includes a responsive image/text carousel using **Swiper.js**.
 
