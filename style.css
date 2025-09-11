@@ -346,6 +346,7 @@ nav ul li a:hover::after{
 
 .box2 h2, .box2 p {
   color: #1F4D1F;  
+  margin-right: 30%;
 }
 
 .box3 h2, .box3 p {
@@ -354,12 +355,12 @@ nav ul li a:hover::after{
 
 .box4 h2, .box4 p {
   color: #0D2E4F;
+  margin-right: 30%;
 }
 
 /* "LEARN MORE" BUTTONS */
 
-
-.learn-more-btn {
+.learn-more-btn-menstruation{
   margin-top: 30px;
   margin-left: 41px;
   display: inline-block;
@@ -367,9 +368,8 @@ nav ul li a:hover::after{
   padding: 9px 7px;
   font-family: 'Georgia', serif;
   font-size: 17px;
-  color: #2c2c2c;
   text-decoration: none;
-  border: 1px solid #b089b0; 
+  border: 1px solid #bb95bb; 
   background: transparent;
   transition: all 0.6s ease;
   cursor: pointer;
@@ -377,19 +377,106 @@ nav ul li a:hover::after{
 }
 
 /* Inner box */
-.learn-more-btn span {
-  background: #b089b0;
-  color: #2c2c2c;
-  background: #C6AFC6;
+.learn-more-btn-menstruation span {
+  background: #bb95bb;
   color: #2c2c2c;
   display: inline-block;
   padding:10px 20px;
   transition: background 0.3s ease;
 }
 
+.learn-more-btn-menstruation:hover {
+  background: #bb95bb;
+  transition: .7s;
+}
 
-.learn-more-btn:hover {
-  background: #C6AFC6;
+.learn-more-btn-follicular {
+  margin-top: 30px;
+  margin-left: 41px;
+  display: inline-block;
+  position: relative;
+  padding: 9px 7px;
+  font-family: 'Georgia', serif;
+  font-size: 17px;
+  text-decoration: none;
+  border: 1px solid #89b08f; 
+  background: transparent;
+  transition: all 0.6s ease;
+  cursor: pointer;
+
+}
+
+/* Inner box */
+.learn-more-btn-follicular span {
+  background: #89b08f;
+  color: #2c2c2c;
+  display: inline-block;
+  padding:10px 20px;
+  transition: background 0.3s ease;
+}
+
+.learn-more-btn-follicular:hover {
+  background: #89b08f;
+  transition: .7s;
+}
+
+.learn-more-btn-ovulation {
+  margin-top: 30px;
+  margin-left: 41px;
+  display: inline-block;
+  position: relative;
+  padding: 9px 7px;
+  font-family: 'Georgia', serif;
+  font-size: 17px;
+  text-decoration: none;
+  border: 1px solid #9987b7;
+  background: transparent;
+  transition: all 0.6s ease;
+  cursor: pointer;
+
+}
+
+/* Inner box */
+.learn-more-btn-ovulation span {
+  background: #9987b7;
+  color: #2c2c2c;
+  display: inline-block;
+  padding:10px 20px;
+  transition: background 0.3s ease;
+}
+
+.learn-more-btn-ovulation:hover {
+  background: #9987b7;
+  transition: .7s;
+}
+
+.learn-more-btn-luteal {
+  margin-top: 30px;
+  margin-left: 41px;
+  display: inline-block;
+  position: relative;
+  padding: 9px 7px;
+  font-family: 'Georgia', serif;
+  font-size: 17px;
+  text-decoration: none;
+  border: 1px solid #8997c1; 
+  background: transparent;
+  transition: all 0.6s ease;
+  cursor: pointer;
+
+}
+
+/* Inner box */
+.learn-more-btn-luteal span {
+  background: #8997c1;
+  color: #2c2c2c;
+  display: inline-block;
+  padding:10px 20px;
+  transition: background 0.3s ease;
+}
+
+.learn-more-btn-luteal:hover {
+  background: #8997c1;
   transition: .7s;
 }
 
