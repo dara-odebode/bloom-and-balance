@@ -280,7 +280,7 @@ nav ul li a:hover::after{
 
 .arrows {
   position: absolute;
-  top: 200%;
+  top: 135%;
   width: 80%; /* width betwen arrow */
   display: flex;
   justify-content: space-between;
