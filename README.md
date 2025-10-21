@@ -4,7 +4,7 @@ A guide that explains the four phases of the menstrual cycle and provides self-c
 
 ## Description
 
-This project is a front-end web application designed to educate users about the menstrual cycle phases and give them recommendations for self-care practices. The site features:
+This project is a front-end web application designed to educate women on the menstrual cycle phases and give them recommendations for self-care practices. The site features:
 - A navigation bar with smooth scrolling.
 - A Swiper.js carousel to present the four menstrual phases with autoplay and pagination.
 - Additional info pages linked from the carousel for more information on nutrition, herbs and teas, movement, self-care, and lifestyle.
