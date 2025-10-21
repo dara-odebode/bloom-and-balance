@@ -45,7 +45,6 @@ I'll come back to improve the website frequently as I learn more web development
 ### Common issues:
 
 - Swiper arrows not showing → Ensure you’ve included both the Swiper CSS and JS <script> links from the CDN.
-- Images not loading → Check your file paths (e.g., images/lifestyle.png should match your folder structure).
 - Autoplay not working → Confirm the Swiper initialization script is included at the bottom of index.html.
 
 ## Authors
